@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.nav-link {
+  font-family: SF Pro, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: black;
+  text-decoration: none;
+}
+.main-link {
+  padding: 8px 16px;
+  background-color: #0f172a;
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: white;
+  text-decoration: none;
+}
+/* header end  */
+
+.hero {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-image: url(../img/hero/bg.svg);
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-info {
+  max-width: 544px;
+}
+.hero-title {
+  font-family: SF Pro, sans-serif;
+  font-weight: 590;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+.hero-text {
+  font-family: SF Pro, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #475569;
+  margin-bottom: 40px;
+}
+.hero-link {
+  padding: 10px 24px;
+  background-color: #0f172a;
+  border-radius: 8px;
+  font-family: SF Pro , sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: white;
+  text-decoration: none;
+}
+.hero-img {
+    max-width: 282px;
+}
+/* hero end  */
+
+/* brend start */
+
+.brend {
+  padding-top:26px ;
+  padding-bottom: 26px;
+  background-color: #F2F2F7;
+}
+.brend-container {
+  display: flex;
+  justify-content: space-between;
+}
+.brend-logo {
+  width: 135px;
+}
