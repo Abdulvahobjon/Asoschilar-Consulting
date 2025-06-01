@@ -304,7 +304,7 @@ html{
   border-radius: 24px;
 }
 .portfolio-card-title {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 590;
   font-size: 24px;
   line-height: 32px;
@@ -313,7 +313,7 @@ html{
   margin-bottom: 8px;
 }
 .portfolio-card-text {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -385,7 +385,7 @@ html{
   padding: 32px;
 }
 .about-col-title {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 590;
   font-size: 24px;
   line-height: 32px;
@@ -394,7 +394,7 @@ html{
   margin-bottom: 8px;
 }
 .about-col-text {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -438,7 +438,7 @@ html{
 .commentary-item-info {
 }
 .commentary-item-title {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 590;
   font-size: 24px;
   line-height: 150%;
@@ -446,7 +446,7 @@ html{
   color: #0f172a;
 }
 .commentary-item-text {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -456,7 +456,7 @@ html{
 .commentary-btn {
   padding: 8px 16px;
   border-radius: 8px;
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -488,7 +488,7 @@ html{
   gap: 8px;
 }
 .contact-item-name {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: Body/Font Weight Regular;
   font-size: Body/Size Medium;
   line-height: 140%;
@@ -498,7 +498,7 @@ html{
   padding: 12px 16px;
   border-radius: 8px;
   border: 1px solid #d9d9d9;
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -512,7 +512,7 @@ html{
   border-radius: 8px;
   box-shadow: 0px 4px 6px 0px #00000017;
   color: white;
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -538,7 +538,7 @@ html{
   margin-bottom: 66px;
 }
 .footer-text {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 28px;
@@ -556,7 +556,7 @@ html{
 }
 
 .footer-right-title {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 590;
   font-size: 24px;
   line-height: 32px;
@@ -568,7 +568,7 @@ html{
   gap: 12px;
 }
 .footer-right-link {
-  font-family: SF Pro, sans-serif;
+  font-family: SF Pro Display , sans-serif;
   font-weight: 510;
   font-size: 16px;
   line-height: 24px;
