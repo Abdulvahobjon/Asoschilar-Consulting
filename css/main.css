@@ -118,6 +118,7 @@ html{
   letter-spacing: 0%;
   color: white;
   text-decoration: none;
+  display: inline-block;
 }
 .hero-img {
   max-width: 282px;
@@ -222,6 +223,8 @@ html{
 .why-us {
   padding-top: 64px;
   padding-bottom: 64px;
+  background-image: url(../img/why-us/bg4.svg);
+  background-repeat: no-repeat;
 }
 .why-us-container {
   text-align: center;
@@ -287,6 +290,8 @@ html{
 /* portfolio start */
 
 .portfolio {
+  background-image: url(../img/portfolio/bg.svg);
+  background-repeat: no-repeat;
   padding: 64px 0;
 }
 .portfolio-top {
@@ -361,6 +366,8 @@ html{
 .about {
   padding-top: 64px;
   padding-bottom: 0;
+  background-image: url(../img/about.svg);
+  background-repeat: no-repeat;
 }
 .about-container {
   text-align: center;

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asoschilar.uz/sitemap.xml
+
+# Block access to admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
