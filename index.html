@@ -453,7 +453,7 @@
                     </button>
                     <h2 class="section-title">Konsultatsiyaga yoziling va biznesingizni tizimlashtiring</h2>
                 </div>
-                <form action="" class="contact-form" method="POST" novalidate>
+                <form class="contact-form" name="submit-to-google-sheet" novalidate>
                     <div class="contact-item">
                         <label class="contact-item-name" for="name">Ism</label>
                         <input required class="contact-item-input" id="name" name="name" placeholder="To'liq ismingiz"
@@ -524,6 +524,18 @@
                 navigator.serviceWorker.register('/sw.js');
             });
         }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyL--epcN_rCbeOIjDsGEWearM4Y22tMujpVuUA_dP5OxP3zqZmyve3fA6cSKIfKkDs/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
     </script>
 </body>
 
