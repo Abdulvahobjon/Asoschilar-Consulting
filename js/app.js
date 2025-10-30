@@ -8,36 +8,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-const commentaryBtn = document.querySelector("#commentary-btn");
-const commentaryList = document.querySelector(".commentary-list");
-
-commentaryBtn.addEventListener("click", function () {
-  const isCollapsed = commentaryList.classList.contains("max-h-550");
-  // Tanlangan bitta elementni ochamiz yoki yopamiz
-  if (isCollapsed) {
-    commentaryList.classList.replace("max-h-550", "max-h-1100");
-    commentaryBtn.textContent = "Kamroq ko'rish";
-  } else {
-    commentaryList.classList.replace("max-h-1100", "max-h-550");
-    commentaryBtn.textContent = "Ko'proq ko'rish";
-  }
-});
-
-const portfolioBtn = document.querySelector("#portfolio-btn");
-const portfolioList = document.querySelector(".portfolio-box");
-
-portfolioBtn.addEventListener("click", function () {
-  const isCollapsed = portfolioList.classList.contains("max-h-608");
-  // Tanlangan bitta elementni ochamiz yoki yopamiz
-  if (isCollapsed) {
-    portfolioList.classList.replace("max-h-608", "max-h-1216");
-    portfolioBtn.textContent = "Kamroq ko'rish";
-  } else {
-    portfolioList.classList.replace("max-h-1216", "max-h-608");
-    portfolioBtn.textContent = "Ko'proq ko'rish";
-  }
-});
-
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.forms["submit-to-google-sheet"];
   const submitButton = form.querySelector(".contact-form-btn");
