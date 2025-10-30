@@ -517,9 +517,7 @@ html {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.contact .section-header{
-  background-color: #FDFDFD;
-}
+
 .container-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
