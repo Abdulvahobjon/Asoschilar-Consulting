@@ -516,9 +516,6 @@ html {
 .contact {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-image: url(../img/why_odoo/bg.png);
-  background-size: cover;
-  background-position: top right;
 }
 .contact .section-header{
   background-color: #FDFDFD;
@@ -577,7 +574,7 @@ html {
 }
 
 .footer {
-  background-color: #0F141F;
+  background-color: #F2F2F7;
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -590,10 +587,7 @@ html {
 }
 .footer-logo {
   width: 162px;
-  padding: 10px;
   margin-bottom: 66px;
-  border-radius: 10px;
-  background-color: #fff;
 }
 .footer-text {
   font-family: SF Pro Display, sans-serif;
@@ -601,7 +595,7 @@ html {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0%;
-  color: #fff;
+  color: #64748B;
 }
 .footer-right {
   display: grid;
@@ -619,7 +613,7 @@ html {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.6%;
-  color: #FFFFFF;
+  color: #0F172A;
 }
 .footer-right-list {
   display: grid;
@@ -631,7 +625,7 @@ html {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
-  color: #fff;
+  color: #475569;
   text-decoration: none;
   display: flex;
   align-items: center;
