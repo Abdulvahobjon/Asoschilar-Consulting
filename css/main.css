@@ -1401,8 +1401,8 @@ html {
 .why_odoo__left__list__item::before {
   content: "";
   display: flex;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #000;
   border-radius: 50%;
 }
