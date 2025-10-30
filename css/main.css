@@ -231,7 +231,7 @@ html {
   margin-bottom: 10px;
 }
 .service__row__col__description {
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: clamp(12px, 1.5vw, 16px);
   line-height: 150%;
@@ -314,7 +314,7 @@ html {
   margin-bottom: 10px;
 }
 .why_do__row__col__description {
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: clamp(14px, 1.1vw, 16px);
   line-height: 28px;
@@ -411,7 +411,7 @@ html {
   padding-left: 20px;
 }
 .why-us-col-list-item {
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -1214,7 +1214,7 @@ html {
   width: 100%;
   border-radius: 8px;
   border: none;
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -1273,7 +1273,7 @@ html {
   margin-bottom: 8px;
 }
 .after_business__row__right__row__text {
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: clamp(11px, 3.6vw, 16px);
   line-height: 150%;
@@ -1348,7 +1348,7 @@ html {
 }
 
 .work__right__card__description {
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1405,7 +1405,7 @@ html {
   list-style: none;
 }
 .why_odoo__left__list__item {
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
@@ -1428,7 +1428,7 @@ html {
   box-shadow: 0px 4px 6px 0px #00000017;
   border: none;
   border-radius: 8px;
-  font-family: SF Pro, sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
