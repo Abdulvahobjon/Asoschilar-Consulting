@@ -1277,6 +1277,7 @@ html {
   font-weight: 400;
   font-size: clamp(11px, 3.6vw, 16px);
   line-height: 150%;
+  color: #334155;
 }
 .after_business__left_img__box {
   max-width: 516px;
