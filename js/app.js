@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Send data to Google Script
     fetch(
-      "https://script.google.com/macros/s/AKfycbw0rRGmJgL0oZDjWvJS-DVxiBnHC2dJAXxZj7VNVwwE2j-ptBAEh5HwMFFyk2N5RuyF/exec",
+      "https://script.google.com/macros/s/AKfycbwN2kdM6WyJar8vBkZ3iU0E0FGgH1IfiME86Oeg5LVcv_1Aox_BU4SiHkrfXIoUlbnPzQ/exec",
       {
         method: "POST",
         body: formData,
