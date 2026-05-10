@@ -656,7 +656,7 @@
     <script src="./js/app.js" defer></script>
 
     <!-- Service Worker for caching -->
-    <script>
+    <script defer>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
                 navigator.serviceWorker.register('/sw.js');
@@ -664,7 +664,7 @@
         }
     </script>
 
-    <script>
+    <script defer>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyL--epcN_rCbeOIjDsGEWearM4Y22tMujpVuUA_dP5OxP3zqZmyve3fA6cSKIfKkDs/exec'
         const form = document.forms['submit-to-google-sheet']
 
@@ -677,7 +677,7 @@
     </script>
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
+    <script defer type="text/javascript">
             (function (m, e, t, r, i, k, a) {
                 m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
                 m[i].l = 1 * new Date();
@@ -691,6 +691,23 @@
         <div><img src="https://mc.yandex.ru/watch/104606632" style="position:absolute; left:-9999px;" alt="" /></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Meta Pixel Code -->
+<script defer>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1698876124643079');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1698876124643079&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </body>
 
 </html>
